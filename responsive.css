@@ -1,0 +1,418 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+
+nav a{
+	color:#af8289;
+}
+
+nav .menu li a, nav .open-submenu {
+    color: #061E37;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding: 35px 41px;
+	
+}
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1368px) {
+
+nav .navbar {
+    width: 96%;
+}
+	
+.contein_bar{
+	width:98%;
+}
+
+.content_ber{
+	width:62%;
+}
+
+.sid_ber{
+	width:34%;
+	margin-left:2%;
+}
+
+nav .menu li a, nav .open-submenu {
+	padding: 35px 21px;
+	
+}
+
+.mail_fs{
+	width:45%;
+}
+
+.mail_f{
+	width:45%;
+}
+
+.mail_ls{
+	width:70%;
+}
+
+.mail_fsls {
+    width: 15%;
+}
+
+.asid_menu nav ul li a {
+padding: 1em;
+}
+
+.imagers {
+    float: none;
+}
+
+.imgesa img{width:100%;}
+
+.headi h2{
+	width:auto;
+}
+
+.headd h2 {
+    padding:0;
+}
+
+
+.wimais{
+	width:88%;
+	height:auto;
+}
+
+.subs{
+	float:left;
+	width:88%;
+	height:auto;
+	margin-top:2%;
+	
+}
+
+.pragra img {
+    width: 100%;
+}
+	
+
+
+
+
+
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+
+
+
+	nav .navbar {
+    width: 98%;
+}
+	
+.contein_bar{
+	width:98%;
+}
+
+.content_ber{
+	width:62%;
+}
+
+.sid_ber{
+	width:34%;
+	margin-left:2%;
+}
+
+nav .menu li a, nav .open-submenu {
+	padding: 35px 21px;
+	
+}
+
+.mail_fs{
+	width:45%;
+}
+
+.mail_f{
+	width:45%;
+}
+
+.mail_ls{
+	width:70%;
+}
+
+.mail_fsls {
+    width: 15%;
+}
+
+.asid_menu nav ul li a {
+padding: 1em;
+}
+
+.imagers {
+    float: none;
+}
+
+.imgesa img{width:100%;}
+
+.headi h2{
+	width:auto;
+}
+
+.headd h2 {
+    padding:0;
+}
+
+
+.wimais{
+	width:88%;
+	height:auto;
+}
+
+.subs{
+	float:left;
+	width:88%;
+	height:auto;
+	margin-top:2%;
+	
+}
+
+.pragra img {
+    width: 100%;
+}
+
+.content_ber {
+    width: 100%;
+}
+	
+.sid_ber {
+    width: 100%;
+}
+
+.footer_right {
+    margin-right: 23%;
+}
+
+.footer_left ul li a {
+padding: 20px 7px;
+margin-right:0;
+}
+
+.footer_left {
+    margin-left: 0%;
+}
+
+.footer_left ul li a {
+    padding: 10px 8px;
+    margin-right: 0;
+    font-size: 10px;
+}
+
+	.mail_f {
+    width: 40%;
+}
+	
+	.mail_fs {
+    width: 40%;
+}
+	
+	.headd{
+		display:none;
+	}
+	
+	nav .logo {
+		margin-top:0px;
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+	nav .navbar {
+    width: 96%;
+}
+	
+.contein_bar{
+	width:98%;
+}
+
+.content_ber{
+	width:62%;
+}
+
+.sid_ber{
+	width:34%;
+	margin-left:2%;
+}
+
+nav .menu li a, nav .open-submenu {
+	padding: 35px 21px;
+	
+}
+
+.mail_fs{
+	width:45%;
+}
+
+.mail_f{
+	width:45%;
+}
+
+.mail_ls{
+	width:70%;
+}
+
+.mail_fsls {
+    width: 15%;
+}
+
+.asid_menu nav ul li a {
+padding: 1em;
+}
+
+.imagers {
+    float: none;
+}
+
+.imgesa img{width:100%;}
+
+.headi h2{
+	width:auto;
+}
+
+.headd h2 {
+    padding:0;
+}
+
+
+.wimais{
+	width:88%;
+	height:auto;
+}
+
+.subs{
+	float:left;
+	width:88%;
+	height:auto;
+	margin-top:2%;
+	
+}
+
+.pragra img {
+    width: 100%;
+}
+
+.content_ber {
+    width: 100%;
+}
+	
+.sid_ber {
+    width: 100%;
+}
+
+.footer_right {
+    margin-right: 23%;
+}
+
+.footer_left ul li a {
+padding: 20px 7px;
+margin-right:0;
+}
+
+.footer_left {
+    margin-left: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
